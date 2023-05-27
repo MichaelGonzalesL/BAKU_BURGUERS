@@ -1,35 +1,348 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BAKU BURGERS</title>
-    <!--Librerias-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="icon" type="imagen/png" href="./img/IMG-20230328-WA0004.ico">
+    <title>Restaurante BAKU BURGUERS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poller+One&display=swap">
 </head>
-<body>
-    <!--Encabezado-->
-    <header>
-        <a href="pages/productos.html">PRODUCTOS</a>
-        <a href="pages/sucursales.html">SUCURSALES<i class='bx bxs-map'></i></a>
-        <a href="pages/pedidios.html">PEDIDOS<i class='bx bxs-cart-add'></i></a>
-    </header>
-    <!--Cuerpo o contenido-->
-    <main>
-        <img src="https://img.freepik.com/foto-gratis/vista-frontal-hamburguesa-stand_141793-15542.jpg?w=2000" height="500" alt="">
-    </main>
-    <!--Pie de pagina-->
-    <footer>
-        <h1>Sobre Nosotros</h1>
-        <ul >
-            <li>Sucursales</li>
-            <li>Atencion al cliente</li>
-            <li>Quienes somos</li>
-            <li>Nuestras redes</li>
-        </ul>
-    </footer>
 
+<body>
+
+    <!--Barra de nav-->
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+        <div class="container-fluid">
+            <ul class="main-menu">
+                <li class="menu-item"><a href="/">Inicio</a></li>
+                <li class="menu-item"><a href="nosotros.html">Nosotros</a></li>
+                <li class="menu-item"><a href="carta.html">Carta</a></li>
+                <li class="menu-item"><a href="blog.html">Blog</a></li>
+                <li class="menu-item"><a href="buscadorComidas.html">BuscadorComidas</a></li>
+                <li class="menu-item"><a href="sucursales.html">Sucursales</a></li>
+                <li class="menu-item"><a id="nav-main-contact" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- FIN DE NAVEGACION-->
+
+    <!--Banner con foto-->
+    <section id="todo-sobre-mi" class="about">
+        <div class="container-fluid text-center">
+            <img src="/img/BAKU.jpg" alt="" width="100%" height="50%">
+        </div>
+    </section>
+    <!-- <div class="wrap-header-hero">
+        <header class="main-header">
+            <div class="header-wrap">
+                <div class="wrap-logo-header">
+                    <a class="logo-header" href="/">
+                        <span>Web</span><span>De</span><span>Restaurante</span>
+                    </a>
+                </div>
+                <div class="hero"></div>
+            </div>
+            
+        </header>-->
+        <!-- Tarjetas de comida -->
+     <section class="wrap section">
+            <div class="wrap-title-section">
+                <h2>Tarjetas de Comida</h2>
+            </div>
+            <div class="column-4 columns">
+                <div style="background:url(img/PIZZA\ DE\ MUZZARELLA\ JAMON\ Y\ MORRON.jpg)center;background-size: cover;"
+                    class="tarjeta-rest">
+                    <div class="wrap-text_tarjeta-rest">
+                        <h3>Pizza Especial</h3>
+                        <p>Gran variedad de Pizzas.</p>
+                        <div class="cta-wrap_tarjeta-rest">
+                            <div class="precio_tarjeta-rest">
+                                <span>Precios desde $1200</span>
+                            </div>
+                            <div class="cta_tarjeta-rest">
+                                <a href="">Pedir ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background:url(img/EMPANADAS\ DE\ CARNE.jpg)center;background-size: cover;"
+                    class="tarjeta-rest">
+                    <div class="wrap-text_tarjeta-rest">
+                        <h3>Empanadas</h3>
+                        <p>Variedad de empanadas .</p>
+                        <div class="cta-wrap_tarjeta-rest">
+                            <div class="precio_tarjeta-rest">
+                                <span>Precios docena desde $1100</span>
+                            </div>
+                            <div class="cta_tarjeta-rest">
+                                <a href="">Pedir ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background:url(img/HAMBURGUESA\ CON\ PAPAS.jpg)center;background-size: cover;"
+                    class="tarjeta-rest">
+                    <div class="wrap-text_tarjeta-rest">
+                        <h3>Hamburguesas</h3>
+                        <p>Variedad de hamburguesas .</p>
+                        <div class="cta-wrap_tarjeta-rest">
+                            <div class="precio_tarjeta-rest">
+                                <span>Precios desde $1100</span>
+                            </div>
+                            <div class="cta_tarjeta-rest">
+                                <a href="">Pedir ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background:url(img/PANCHO\ CON\ PAPAS.jpg)center;background-size: cover;"
+                    class="tarjeta-rest">
+                    <div class="wrap-text_tarjeta-rest">
+                        <h3>Panchos</h3>
+                        <p>Variedad de panchos .</p>
+                        <div class="cta-wrap_tarjeta-rest">
+                            <div class="precio_tarjeta-rest">
+                                <span>Precios desde $800</span>
+                            </div>
+                            <div class="cta_tarjeta-rest">
+                                <a href="">Pedir ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+
+        <!-- Menu Restaurante -->
+        <section class="wrap section">
+            <div class="wrap-title-section">
+                <h1>Menúes de Restaurante</h1>
+            </div>
+            <div class="column-3 columns">
+                <div style="background: url(img/fondo-menu-restaurante.jpeg) center;background-size: cover;"
+                    class="menu-restaurante">
+                    <h3>Menús mediodia</h3>
+                    <hr>
+                    <h4>Primeros Platos</h4>
+                    <p>HAMBURGUESA EN PLATO CON PAPAS.</p>
+                    <p class="precio-menu">Precio: <span>1300$</span></p>
+                    <p>HAMBURGUESA DE POLLO CON PAPAS.</p>
+                    <p class="precio-menu">Precio: <span>1500$</span></p>
+                    <p>MILANESAS CON PAPA.</p>
+                    <p class="precio-menu">Precio: <span>1250$</span></p>
+                    <p>EMPANADAS DE JAMON Y QUESO.</p>
+                    <p class="precio-menu">Precio: <span>1100$</span></p>
+                    <br>
+                    <h4>Segundos Platos</h4>
+                    <p>EMPANADAS DE CARNE.</p>
+                    <p class="precio-menu">Precio: <span>1200$</span></p>
+                    <p>SANDWICH DE MILANESA DE CARNE EN PAN CASERO.</p>
+                    <p class="precio-menu">Precio: <span>1300$</span></p>
+                    <p>PANCHO CON PAPAS.</p>
+                    <p class="precio-menu">Precio: <span>1050$</span></p>
+                    <p>MILANESAS NAPOLITANAS.</p>
+                    <p class="precio-menu">Precio: <span>1400$</span></p>
+                    <br>
+                </div>
+                <div style="background: url(img/fondo-menu-restaurante.jpeg) center;background-size: cover;"
+                    class="menu-restaurante">
+                    <h3>Menús noche</h3>
+                    <hr>
+                    <h4>Primeros Platos</h4>
+                    <p>CARNE CON PAPA Y MORRONES.</p>
+                    <p class="precio-menu">Precio: <span>1600$</span></p>
+                    <p>ENSALADA CON PECHUGA DE POLLO A LA BRASA</p>
+                    <p class="precio-menu">Precio: <span>1900$</span></p>
+                    <br>
+                    <h4>Segundos Platos</h4>
+                    <p>MILANESA A CABALLO.</p>
+                    <p class="precio-menu">Precio: <span>2000$</span></p>
+                    <p>MILANESAS CON PAPAS BASTON FRITAS.</p>
+                    <p class="precio-menu">Precio: <span>1900$</span></p>
+                    <br>
+                    <p>PIZZA FUGAZZETA.</p>
+                    <p class="precio-menu">Precio: <span>1550$</span></p>
+                </div>
+                <div style="background: url(img/fondo-menu-restaurante.jpeg) center;background-size: cover;"
+                    class="menu-restaurante">
+                    <h3>Menús fin de semana</h3>
+                    <hr>
+                    <h4>Primeros Platos</h4>
+                    <p>HAMBURGUESA CON PAPAS.</p>
+                    <p class="precio-menu">Precio: <span>1550$</span></p>
+                    <p>BIFE DE RES A LA PARRILLA.</p>
+                    <p class="precio-menu">Precio: <span>2100$</span></p>
+                    <p>CANELONES A LA ITALIANA.</p>
+                    <p class="precio-menu">Precio: <span>1850$</span></p>
+                    <p>ENSALADA CON PECHUGA DE POLLO A LA BRASA.</p>
+                    <p class="precio-menu">Precio: <span>1800$</span></p>
+                    <br>
+                    <h4>Segundos Platos</h4>
+                    <p>MILANESAS CON PAPAS.</p>
+                    <p class="precio-menu">Precio: <span>1750$</span></p>
+                    <p>MILANESAS NAPOLITANAS.</p>
+                    <p class="precio-menu">Precio: <span>1400$</span></p>
+                    <p>PASTAS.</p>
+                    <p class="precio-menu">Precio: <span>1550$</span></p>
+                    <p>LASAGNA DE CARNE.</p>
+                    <p class="precio-menu">Precio: <span>2150$</span></p>
+                    <br>
+                    <p>CARNE DE POLLO A LA PARRILLA Y ENSALADA.</p>
+                    <p class="precio-menu">Precio: <span>1900$</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería de imágenes -->
+        <section class="section">
+            <div class="wrap-title-section">
+                <h2>Galería de imágenes</h2>
+            </div>
+            <div class="column-4 galeria-platos">
+                <div class="imagen-galeria">
+                    <img src="img/EMPANADAS DE JAMON Y QUESO.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/EMPANADAS DE CARNE.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/HAMBURGUESA CON PAPAS.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/HAMBURGUESA DE POLLO.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/HAMBURGUESA EN PLATO CON PAPAS.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/HAMBURGUESA2.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/PANCHO CON PAPAS.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/HAMBURGUESA3.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/PASTAS.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/MILANESAS CON PAPAS.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/HAMBURGUESA DE POLLO CON PAPAS.jpeg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/MILANESAS NAPOLITANAS.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/PIZZA DE MUZZARELLA JAMON Y MORRON.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/PIZZA TROPICAL.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/ENSALADA CON PECHUGA DE POLLO A LA BRASA.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/MILANESA A CABALLO.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/LASAGNA DE CARNE.jpeg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/PIZZA FUGAZZETA RELLENA.jpeg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/RAVIOLES.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/TALLARINES CON ALBONDIGAS.jpeg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/CHORIPAN.jpeg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/SANDWICH DE MILANESA.jpeg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/BIFE DE RES A LA PARRILLA.jpg" alt="">
+                </div>
+                <div class="imagen-galeria">
+                    <img src="img/PANCHO COMPLETO.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        </main>
+        <footer class="footer">
+            <div class="wrap-footer">
+                <div class="text-element-footer element-footer">
+                    <h3>Restaurante</h3>
+                    <p>Nuestro restaurante se caracteriza por la atención personalizada, la rapidez en la entrega de los
+                        pedidos en el local y en los domicilios.</p>
+                </div>
+                <div class="text-element-footer element-footer">
+                    <h5>Dirección</h5>
+                    <ul>
+                        <li>Calle Sarmiento</li>
+                        <li>Departamento - GC</li>
+                        <li>Movil: (+261) 600 00 00 </li>
+                        <li>Fax: (+261) 900 00 00 </li>
+                    </ul>
+                </div>
+                <div class="text-element-footer element-footer">
+                    <h5>Más información</h5>
+                    <ul>
+                        <li class="menu-item"><a href="/">Inicio</a></li>
+                        <li class="menu-item"><a href="nosotros.html">Nosotros</a></li>
+                        <li class="menu-item"><a href="carta.html">Carta</a></li>
+                        <li class="menu-item"><a href="blog.html">Blog</a></li>
+                        <li class="menu-item"><a href="buscadorComidas.html">BuscadorComidas</a></li>
+                        <li class="menu-item"><a href="sucursales.html">Sucursales</a></li>
+                        <li class="menu-item"><a id="nav-main-contact" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="rrss-element-footer element-footer">
+                    <h5>Redes Sociales</h5>
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com" target="_blank"
+                        role="button"><i class="fab fa-facebook-f"><img src="./img/facebook.png" alt="" width="20"
+                                height="20"></i></a>
+                    <!-- WhatApp -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.whatsapp.com" target="_blank"
+                        role="button"><i class="fab fa-whatsapp"><img src="./img/WhatApp.png" alt="" width="20"
+                                height="20"></i></a>
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com" target="_blank"
+                        role="button"><i class="fab fa-instagram"><img src="./img/instagram.png" alt="" width="20"
+                                height="20"></i></a>
+                </div>
+                <!-- Section: Social media -->
+                <!-- Copyright -->
+                <div class="text-center p-3">
+                    <a class="text-white" href="">© Cohort </a>
+                </div>
+            </div>
+    </div>
+    <div class="footer-creds">
+        <div class="copy-creds">
+            <p-1>©2023 · Todos los derechos reservados.</p-1>
+        </div>
+        <div class="legal-creds">
+            <ul>
+                <li><a href="">Política de Privacidad</a></li>
+                <li><a href="">Política de Cookies</a></li>
+                <li><a href="">Aviso Legal</a></li>
+            </ul>
+        </div>
+    </div>
+    </footer>
 </body>
+<script src="./assets/js/script.js"></script>
 </html>

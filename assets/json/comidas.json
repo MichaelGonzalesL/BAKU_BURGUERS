@@ -1,0 +1,224 @@
+{
+        "comidas": {
+                "banner": "assets/img/BAKU.jpg",
+                "profileImage": "assets/img/restaurant-logo.jpeg",
+                "nombre": "Restaurant",
+                "acerca_de_nosotros": "Nuestra empresa gastronómica de nivel nacional esta en continua expansión y es reconocida por la confianza y el compromiso mutuo con nuestros colaboradores para alcanzar la excelencia y garantizar la satisfacción requerida por nuestros clientes y el cumplimiento de los compromisos asumidos con ellos."
+        },
+        "pasta": [
+                {
+                        "image":"pastas1.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta10.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta11.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta12.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta13.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta14.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta15.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta16.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta17.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta18.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta19.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta2.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta20.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pasta21.jpg",
+                        "keywords": []
+                }
+        ],
+        "burger": [
+                {
+                        "image": "burger1.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger1.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger10.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger11.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger12.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger13.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger14.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger15.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger16.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger17.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger18.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger19.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger2.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger20.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger21.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "burger22.jpg",
+                        "keywords": []
+                }
+        ],
+
+        "pizza": [
+                {
+                        "image": "pizza1.jpg",
+                        "keywords": [
+                        "margherita",
+                        "vegetarian",
+                        "cheese"
+                        ]
+                },
+                {
+                        "image": "pizza10.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza11.jpg",
+                        "keywords": [
+                                "margherita",
+                                "vegetarian"
+                        ]
+                },
+                {
+                        "image": "pizza12.jpg",
+                        "keywords": [
+                        "pepperoni"
+                        ]
+                },
+                {
+                        "image": "pizza13.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza14.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza15.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza16.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza17.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza18.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza19.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza20.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza21.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza22.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza23.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza24.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza25.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza26.jpg",
+                        "keywords": []
+                },
+                {
+                        "image": "pizza24.jpg",
+                        "keywords": []
+                }
+
+        ]
+        
+
+}
+  
