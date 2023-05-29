@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="imagen/png" href="./img/IMG-20230328-WA0004.ico">
+    <link rel="icon" type="imagen/png" href="/img/logo.png">
     <title>Restaurante BAKU BURGUERS</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet"
@@ -13,43 +13,33 @@
 </head>
 
 <body>
-
-    <!--Barra de nav-->
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
-        <div class="container-fluid">
-            <ul class="main-menu">
-                <li class="menu-item"><a href="/">Inicio</a></li>
-                <li class="menu-item"><a href="nosotros.html">Nosotros</a></li>
-                <li class="menu-item"><a href="carta.html">Carta</a></li>
-                <li class="menu-item"><a href="blog.html">Blog</a></li>
-                <li class="menu-item"><a href="buscadorComidas.html">BuscadorComidas</a></li>
-                <li class="menu-item"><a href="sucursales.html">Sucursales</a></li>
-                <li class="menu-item"><a id="nav-main-contact" href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- FIN DE NAVEGACION-->
-
-    <!--Banner con foto-->
-    <section id="todo-sobre-mi" class="about">
-        <div class="container-fluid text-center">
-            <img src="/img/BAKU.jpg" alt="" width="100%" height="50%">
-        </div>
-    </section>
-    <!-- <div class="wrap-header-hero">
-        <header class="main-header">
-            <div class="header-wrap">
-                <div class="wrap-logo-header">
-                    <a class="logo-header" href="/">
-                        <span>Web</span><span>De</span><span>Restaurante</span>
+    <div class="container">
+        <!--Barra de nav-->
+        <header class="div-header">
+            <nav class="header-nav">
+                <div >
+                    <a class="header-nav-a">
+                        <img class="logo" src="/img/logo.png" alt="logo">
                     </a>
                 </div>
-                <div class="hero"></div>
-            </div>
-            
-        </header>-->
-        <!-- Tarjetas de comida -->
+                <ul class="ul-menu">
+                        <li class="li-item"><a href="/">Inicio</a></li>
+                        <li class="li-item"><a href="nosotros.html">Nosotros</a></li>
+                        <li class="li-item"><a href="carta.html">Carta</a></li>
+                        <!-- <li class="li-item"><a href="blog.html">Blog</a></li> -->
+                        <!-- <li class="li-item"><a href="buscadorComidas.html">Buscador de Comidas</a></li> -->
+                        <li class="li-item"><a href="sucursales.html">Sucursales</a></li>
+                        <li class="li-item"><a id="nav-main-contact" href="contacto.html">Contacto</a>
+                        </li>
+                </ul>    
+            </nav>
+        </header>
+                    
+
+    <!--
+        FIN DE NAVEGACION-->
+        
+            <!-- Tarjetas de comida -->
      <section class="wrap section">
             <div class="wrap-title-section">
                 <h2>Tarjetas de Comida</h2>
@@ -329,20 +319,34 @@
                     <a class="text-white" href="">© Cohort </a>
                 </div>
             </div>
-    </div>
-    <div class="footer-creds">
-        <div class="copy-creds">
-            <p-1>©2023 · Todos los derechos reservados.</p-1>
-        </div>
-        <div class="legal-creds">
-            <ul>
-                <li><a href="">Política de Privacidad</a></li>
-                <li><a href="">Política de Cookies</a></li>
-                <li><a href="">Aviso Legal</a></li>
-            </ul>
-        </div>
-    </div>
-    </footer>
+            <!--Ver que hace esto-->
+            <div class="footer-creds">
+                <div class="copy-creds">
+                    <p-1>©2023 · Todos los derechos reservados.</p-1>
+                </div>
+                <div class="legal-creds">
+                    <ul>
+                        <li><a href="">Política de Privacidad</a></li>
+                        <li><a href="">Política de Cookies</a></li>
+                        <li><a href="">Aviso Legal</a></li>
+                    </ul>
+                </div>
+            </div>
+            </footer>
+            </div>
+        
+    <!-- </div> -->
+    
+
+
+
+    
+    <!-- <script src="./assets/js/script.js"></script>
+    <script type="text/javascript">
+		window.addEventListener("scroll", function(){
+			var header = document.querySelector("navbar");
+			header.classList.toggle("abajo",window.scrollY>0);
+		})
+    </script> -->
 </body>
-<script src="./assets/js/script.js"></script>
 </html>

@@ -1,158 +1,81 @@
-:root {
+/*:root {
   --main-c: #ffc300;
   --black-c: #000000;
 }
-
+*/
 /** Estilos Generales **/
-
 *{
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  
+  font-family: sans-serif;
 }
 
 html {
   font-family: "Josefin Sans", sans-serif;
-}
-body {
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-}
-a:visited {
-  color: inherit;
-}
-li {
-  list-style: none;
-}
-p {
-  font-size: 1.1rem;
-  background-color: rgb(4, 113, 152);
-}
-h1 {
-  font-size: 2.4rem;
-  background-color: rgb(4, 113, 152);
+} 
 
-}
-h2 {
-  font-size: 2rem;
-  background-color: #fff;
+/*Barra de navegacion*/
 
-}
-h3 {
-  font-size: 1.8rem;
-  background-color: rgb(66, 159, 167);
-}
-h4 {
-  font-size: 1.6rem;
-  background-color: red;
-}
-p {
-  background-color: #7fbee394;
-}
-h5 {
-  font-size: 1.4rem;
-}
-h6 {
-  font-size: 1.2rem;
-}
-
-.container-fluid {
-  background-color: var(--main-c);
-  padding: 1rem 1rem;
-  color: black;
-  font-size: bold;
-  border-radius: 2px;
-  
-}
-/* Enlaces & Botones*/
-
-.cta-main {
-  background-color: black;
-  padding: 1rem 1rem;
-  color: #59adc7;
-  font-size: bold;
-  border-radius: 2px;
-}
-
-#nav-main-contact{
-  background-color: var(--main-c);
-  padding: 1rem 1rem ;
-  color: #fff;
-  font-size: bold;
-  border-radius: 2px;
-}
-
-/* Hero */
-.hero {
-  background: url(img/hero-front-page-bg.jpg) center;
-  background-size: cover;
-  height: 100vh;
-}
-
-/* Header Restaurante */
-
-header.main-header {
-  position: relative;
-  top: 0;
+header{
   width: 100%;
-  z-index: 9999;
+  height: 100vh;
+  background-image: url(img/background2.png);
+  background-size: cover;
+  background-position: center;
 }
-.header-wrap {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  background-color: transparent;
-  z-index: 999;
-}
-.wrap-logo-header {
+
+.header-nav{
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
-  flex-basis: 15%;
-}
-.logo-header {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #fff;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgba(1, 1, 1, 0.848) ;
 }
 
-/* menu header */
+.logo{
+  height: 5rem;
+}
+
+.ul-menu{
+  display: flex;
+}
+.li-item{
+  margin: 1rem 4rem;
+}
+
+.li-item a{
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+/*Animacion del navegador*/
+ .li-item a:hover{
+  border-bottom: 2px solid ;
+  padding-bottom: 7px;
+}
+.header-nav-a :hover{
+  filter:grayscale(100%);
+  cursor: pointer;
+}
+
+/* Enlaces & Botones*/
+/*
+
 
 span {
   background-color: aqua;
 }
 
-.nav-header {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-.nav-wrap-header {
-  display: flex;
-  flex-basis: 50%;
-}
-
-ul.main-menu {
-  display: flex;
-  width: 100%;
-  z-index: 99;
-  margin: 0;
-  padding: 0;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1.1rem;
-}
-
-ul.main-menu #nav-main-contact {
-  display: flex;
-  align-items: center;
-  padding: 0.5rem 1rem;
-  background-color: var(--main-c);
-  color: black;
-}
 li.menu-item {
   margin: 0.75rem;
   display: flex;
@@ -221,17 +144,7 @@ input#check {
   i.toggle-menu {
     display: flex;
   }
-  ul.main-menu,
-  #nav-main-contact {
-    display: none;
-    left: 0;
-    margin: 0;
-    padding: 0;
-  }
-  ul.main-menu {
-    position: fixed;
-    background-color: #fff;
-  }
+  
   label.checkbtn {
     position: fixed;
     right: 3%;
@@ -250,8 +163,8 @@ input#check {
     font-size: 2rem;
   }
 }
-
-/* Hero Section HomePage */
+*/
+/* Hero Section HomePage *//*
 .wrap-header-hero {
   background: linear-gradient(to bottom, rgba(125, 173, 205, 0.75), #a2c0dd80),
     url(img/hero-front-page-bg.jpg);
@@ -291,8 +204,8 @@ figcaption {
     padding: 1rem;
   }
 }
-
-/* Tarjetas de Comida */
+*/
+/* Tarjetas de Comida *//*
 
 .wrap-title-section h2{
   text-align: center; 
@@ -369,8 +282,8 @@ span {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
-/* Menu Restaurante */
+*/
+/* Menu Restaurante *//*
 .column-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -408,9 +321,9 @@ hr {
   .column-3 {
     grid-template-columns: repeat(1, 1fr);
   }
-}
+}*/
 
-/** Cartas Restaurante **/
+/** Cartas Restaurante **//*
 
 .wrap {
   max-width: 1200px;
@@ -463,8 +376,8 @@ hr {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
-/* Galería de Imágenes */
+*/
+/* Galería de Imágenes *//*
 
 .imagen-galeria,
 .imagen-galeria img {
@@ -479,8 +392,8 @@ hr {
     justify-content: center;
   }
 }
-
-/* Pagina de Contacto*/
+*/
+/* Pagina de Contacto*//*
 
 .hero-page {
   background: linear-gradient(to bottom, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5 )), url(https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg) 
@@ -496,8 +409,8 @@ hr {
 .wrap-hero-page{
   color: #fff;
 }
-
-/* Tarjetas de Blog */
+*/
+/* Tarjetas de Blog *//*
 article.card {
   max-width: 350px;
   background-color: #f8f8f8;
@@ -562,8 +475,8 @@ article.card {
     justify-content: center;
   }
 }
-
-/* Footer de la página */
+*/
+/* Footer de la página *//*
 
 footer {
   color: var(--black-c);
@@ -656,11 +569,7 @@ p-1 {
 /********
 REDES SOCIALES
 */
-* {
-  margin: 0;
-  padding: 0;
-}
-
+/*
 body {
   background-color: #445fae;
 }
@@ -671,11 +580,11 @@ body {
 
 /******
 FORMULARIO
-********/
+********//*
 .ginput_container{
   margin: .5rem;
 }
 .elementor-heading-title{
   background-color: gold;
 }
-  
+  */
